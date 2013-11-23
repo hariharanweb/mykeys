@@ -5,9 +5,12 @@
     <h1>My Keys</h1>
     <p>Angular works</p>
 	
-	<div class="container-fluid">
-	  <div class="row-fluid" ng-controller="musicController">
-		  {{title}}
+	<div class="container-fluid" ng-controller="musicController">
+	  <div class="row-fluid" >
+		  {{title}}		  
+	  </div>
+	  <div class="row-fluid" >
+		  <% include keyboard.ejs %>  
 	  </div>
 	</div>
   </body>
